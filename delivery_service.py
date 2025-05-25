@@ -12,7 +12,7 @@ def min_platforms(robots: list[int], limit: int) -> int:
     return platforms
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     robots = list(map(int, input().split()))
     limit = int(input())
     print(min_platforms(robots, limit))
